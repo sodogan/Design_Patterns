@@ -5,7 +5,7 @@
 package Test;
 import Strategy.*;
 /**
- * @author Solen Dogan
+ * @author Solen Dogan 
  *
  */
 public class Driver {
@@ -17,6 +17,7 @@ public class Driver {
 		
      RedHeadDuck _redHeadDuck = new RedHeadDuck();
      _redHeadDuck.fly( );
+     _redHeadDuck.quack();
      _redHeadDuck.display();
 	}
 
