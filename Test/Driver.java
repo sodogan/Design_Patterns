@@ -1,12 +1,11 @@
 /**
  * 
  */
-package test;
 
+package Test;
 import Strategy.*;
-
 /**
- * @author User
+ * @author Solen Dogan
  *
  */
 public class Driver {
