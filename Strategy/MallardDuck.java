@@ -1,10 +1,10 @@
 package Strategy;
 
-public class RedHeadDuck extends Duck {
+public class MallardDuck extends Duck{
 
-	public RedHeadDuck() {
+	public MallardDuck() {
 		super();
-		setName("Red Head Duck");
+		setName("Mallard Duck");
 		// TODO Auto-generated constructor stub
 	}
 
@@ -25,5 +25,4 @@ public class RedHeadDuck extends Duck {
 		System.out.println("Inside Display Duck name " + _name );	
 
 	}
-
 }

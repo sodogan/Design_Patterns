@@ -21,6 +21,8 @@ public abstract class Duck {
 	public void quack() {
 		System.out.println("Inside Quack Duck : " + _name + " is quacking");
 	}
+	
+	public abstract String getName();
 
 	public abstract void display();
 

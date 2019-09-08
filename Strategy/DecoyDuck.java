@@ -1,10 +1,17 @@
+/**
+ * 
+ */
 package Strategy;
 
-public class RedHeadDuck extends Duck {
+/**
+ * @author User
+ *
+ */
+public class DecoyDuck extends Duck{
 
-	public RedHeadDuck() {
+	public DecoyDuck() {
 		super();
-		setName("Red Head Duck");
+		setName("Decoy Duck");
 		// TODO Auto-generated constructor stub
 	}
 
@@ -19,6 +26,16 @@ public class RedHeadDuck extends Duck {
 	  this._name = newName;	
 	}
 
+	@Override
+	public void fly() {
+		System.out.println("This Duck : " + _name + " is not flying");
+	};
+	
+	@Override
+	public void quack() {
+		System.out.println("This Quack Duck : " + _name + " is not quacking");
+	}
+	
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub
