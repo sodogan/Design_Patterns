@@ -3,7 +3,7 @@ package Strategy;
 public class DuckFactory {
 
 
-	 public  Duck createDuck(String duckType)
+	 public static Duck createDuck(String duckType)
 	 {
 		 if(duckType.equalsIgnoreCase("Mallard"))
 		 {  
