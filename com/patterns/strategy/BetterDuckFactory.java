@@ -1,4 +1,4 @@
-package Strategy;
+package com.patterns.strategy;
 
 public class BetterDuckFactory {
 

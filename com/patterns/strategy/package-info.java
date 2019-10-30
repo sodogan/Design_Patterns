@@ -5,4 +5,4 @@
  * @author User
  *
  */
-package Strategy;
+package com.patterns.strategy;

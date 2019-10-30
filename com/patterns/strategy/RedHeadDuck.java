@@ -1,17 +1,10 @@
-/**
- * 
- */
-package Strategy;
+package com.patterns.strategy;
 
-/**
- * @author User
- *
- */
-public class DecoyDuck extends Duck{
+public class RedHeadDuck extends Duck {
 
-	public DecoyDuck() {
+	public RedHeadDuck() {
 		super();
-		setName("Decoy Duck");
+		setName("Red Head Duck");
 		// TODO Auto-generated constructor stub
 	}
 
@@ -26,16 +19,6 @@ public class DecoyDuck extends Duck{
 	  this._name = newName;	
 	}
 
-	@Override
-	public void fly() {
-		System.out.println("This Duck : " + _name + " is not flying");
-	};
-	
-	@Override
-	public void quack() {
-		System.out.println("This Quack Duck : " + _name + " is not quacking");
-	}
-	
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub

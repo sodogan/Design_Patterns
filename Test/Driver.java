@@ -3,7 +3,7 @@
  */
 
 package Test;
-import Strategy.*;
+import com.patterns.strategy.*;
 /**
  * @author Solen Dogan 
  *

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Strategy;
+package com.patterns.strategy;
 
 /**
  * @author User
