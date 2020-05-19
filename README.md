@@ -1,2 +1,2 @@
-# Design_Patterns
+# Strategy Design_Pattern
 Design Patterns in Java
